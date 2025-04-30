@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="shortcut icon" href="assents/gato.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="container">
+        <h1>To-Do List</h1>
+        <button id="toggle-theme"><img  src="assents/darkmode.png"></button>
+
+        <section class="input-container">
+            <input type="text" id="task-input" placeholder="Adicionar nova tarefa">
+            <button id="add-task">Adicionar</button>
+        </section>
+        
+        <section class="filters">
+            <button data-filter="all" class="filter active">Todas</button>
+            <button data-filter="pending" class="filter">Pendentes</button>
+            <button data-filter="completed" class="filter">Concluídas</button>
+        </section>
+
+        <ul id="task-list"></ul>
+
+
+    </main>
+
+    <script src="script.js"></script> 
+</body>
+</html>

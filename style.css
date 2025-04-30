@@ -1,0 +1,97 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(208, 196, 198);
+    text-align: center;
+
+   
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgb(239, 172, 183);
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 8px 6px 10px rgb(222, 70, 95);
+}
+
+h1{
+    margin-bottom: 15px;
+    color: rgb(222, 70, 95);
+    text-shadow: 8px 6px 8px;
+
+}
+
+img{
+    width: 20px;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#task-input{
+    flex: 1;
+    padding: 8px;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgb(208, 196, 198);
+    color: rgb(222, 70, 95);
+    border-radius: 4px;
+    border: 1px solid rgb(225, 58, 86);
+}
+
+.filters{
+    display: flex;
+    gap: 20px;
+}
+
+.filter{
+    margin: 5px;
+    background-color: rgb(229, 177, 185);
+    color: rgb(192, 66, 66);
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    color: white; 
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(176, 63, 81);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.btnTasks{
+    width: 15px;
+
+}
+
+.edit{
+    background-color: pink;
+}
+
+.delete{
+    background-color: rgb(181, 51, 51);
+}
+
+.completed{
+    text-decoration: line-through;
+    color: rgb(123, 229, 158);
+}
+
+.dark-mode{
+    background-color: rgb(35, 23, 35);
+}
+
